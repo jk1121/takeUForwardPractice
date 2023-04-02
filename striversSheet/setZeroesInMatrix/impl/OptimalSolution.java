@@ -11,7 +11,7 @@ public class OptimalSolution implements Solution {
 
     @Override
     public void setZeroesInMatrix(int[][] matrix, int rows, int cols) {
-        System.out.println("Using Better approach....");
+        System.out.println("Using Optimal approach....");
         System.out.println("-------------------------------");
         int col0 = 1;
         for (int i = 0; i < rows; i++) {
