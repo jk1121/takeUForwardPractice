@@ -33,6 +33,12 @@ public class BruteForceSolution implements Solution {
 
     }
 
+    @Override
+    public String findNextPermutation(int[] arr) {
+        // implemented in optimal soln
+        return null;
+    }
+
     private void permute(int index, int[] arr, List<String> ans) {
         if (index == arr.length) {
             StringBuilder s = new StringBuilder();

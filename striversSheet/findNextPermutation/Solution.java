@@ -12,4 +12,6 @@ public interface Solution {
     List<String> getAllPermutations(int[] arr);
 
     String findNextPermutation(String inputPermutationString, List<String> permutations);
+
+    String findNextPermutation(int[] arr);
 }
