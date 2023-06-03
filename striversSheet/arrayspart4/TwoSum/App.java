@@ -13,8 +13,8 @@ import takeUForward.striversSheet.arrayspart4.TwoSum.pojos.TwoSum;
 public class App {
 
     public static void main(String[] args) {
-        int[] arr = new int[]{2, 1, 3, 4};
-        int target = 4;
+        int[] arr = new int[]{ 3,2, 4};
+        int target = 6;
         // brute force approach
         Solution s = new BruteForceSolution();
         TwoSum t = s.findTwoSumIndices(arr, target);
